@@ -24,9 +24,9 @@ def generate_launch_description():
             'check_satu': True,
             'init_map_size': 10,
             'point_filter_num': 1,  # Options: 1, 3
-            'space_down_sample': False,
-            'filter_size_surf': 0.15,  # Options: 0.5, 0.3, 0.2, 0.15, 0.1
-            'filter_size_map': 0.15,  # Options: 0.5, 0.3, 0.15, 0.1
+            'space_down_sample': True,
+            'filter_size_surf': 0.3,  # Options: 0.5, 0.3, 0.2, 0.15, 0.1
+            'filter_size_map': 0.3,  # Options: 0.5, 0.3, 0.15, 0.1
             'cube_side_length': 1000.0,  # Option: 1000
             'runtime_pos_log_enable': False,  # Option: True
             'odom_header_frame_id': "odom",     # Default: "camera_init"
